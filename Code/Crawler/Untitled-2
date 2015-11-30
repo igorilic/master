@@ -1,0 +1,14 @@
+import from numpy as np
+from scipy.linalg import eig
+
+T = np.mat("0.025 0.325 0.325 0.325;
+            0.925 0.025 0.025 0.025; 
+            0.025 0.025 0.025 0.925; 
+            0.925 0.025 0.025 0.025")
+            
+values, left = eig(T, left = True, right = False)
+
+for i in range(len(values)):
+	print("Left eigenvector for eigenvalue {}:".format(values[i]))
+	print(left[:,i])
+	print()

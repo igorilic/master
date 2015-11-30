@@ -1,0 +1,13 @@
+# rang
+{'http://localhost/treca.html': 0.1572993996378601, 'http://localhost/cetvrta.html': 0.28313891934814817, 'http://localhost/prva.html': 0.40226228137613174, 'http://localhost/druga.html': 0.1572993996378601}
+
+# sortirano
+['http://localhost/prva.html', 'http://localhost/cetvrta.html', 'http://localhost/treca.html', 'http://localhost/druga.html']
+
+# najbolja stranica
+http://localhost/prva.html
+
+
+#samo lookup
+['http://localhost/prva.html', 'http://localhost/prva.html', 'http://localhost/cetvrta.html', 'http://localhost/cetvrta.html', 'http://localhost/treca.html', 'http://localhost/treca.html', 'http://localhost/druga.html', 'http://localhost/druga.html']
+
