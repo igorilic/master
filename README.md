@@ -12,5 +12,8 @@ Univerziteta u Beogradu. Objašnjena je sintaksa programskog jezika Python,
 kao i algoritmi za rangiranje stranica. Na kraju je realizovan program
 koji učitava stranice i daje im odgovarajući rang.
 
+Da bi se dobila nova verzija, potrebno je kompajlirati tex datoteku,
+komandom pdflatex master.tex.
+
 
 

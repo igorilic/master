@@ -1,0 +1,114 @@
+\section{Додатак Б: Резултати}\label{sec:dodatakb}
+		Да би се добила слика о значају рангирања страница, направљен је модел четири повезане веб странице, чији је граф дат на слици \ref{slike:graf}. К\^{о}дови страница изгледају овако:\\
+		
+\begin{lstlisting}[language=HTML, caption=K\^{о}д прве странице, label={lst:prva}, numbers=left]
+<html>
+<head>
+ <title>Prva stranica</title>
+ <link rel="stylesheet" href="my.css">
+</head>
+<body>
+ <h1>Prva stranica</h1>
+ <ul>
+  <li><a href="http://localhost/druga.html">Druga stranica</a></li>
+  <li><a href="http://localhost/treca.html">Treca stranica</a></li>
+  <li><a href="http://localhost/cetvrta.html">Cetvrta stranica</a></li>
+ </ul>
+ <p>Prva stranica ima hipervezu ka drugoj stranici, trecoj stranici,
+ cetvrtoj stranici. Ova stranica se realizuje u cilju testiranja veb
+ pretrazivaca.</p>
+</body>
+</html>
+\end{lstlisting}%
+\medskip
+
+\begin{lstlisting}[language=HTML, caption=K\^{о}д друге странице, label={lst:druga}, numbers=left]
+<html>
+<head>
+ <title>Druga stranica</title>
+ <link rel="stylesheet" href="my.css">
+</head>
+<body>
+ <h1>Prva stranica</h1>
+ <ul>
+  <li><a href="http://localhost/prva.html">Prva stranica</a></li>
+ </ul>
+ <p>Druga stranica ima hipervezu ka prvoj stranici. Ova stranica se realizuje u cilju testiranja veb
+ pretrazivaca.</p>
+</body>
+</html>
+\end{lstlisting}%
+\medskip
+\pagebreak
+\begin{lstlisting}[language=HTML, caption=K\^{о}д треће странице, label={lst:treca}, numbers=left]
+<html>
+<head>
+ <title>Treca stranica</title>
+ <link rel="stylesheet" href="my.css">
+</head>
+<body>
+ <h1>Treca stranica</h1>
+ <ul>
+  <li><a href="http://localhost/prva.html">Cetvrta stranica</a></li>
+ </ul>
+ <p>Treca stranica ima hipervezu ka cetvrtoj stranici. Ova stranica se realizuje u cilju testiranja veb
+ pretrazivaca.</p>
+</body>
+</html>
+\end{lstlisting}%
+\medskip
+\begin{lstlisting}[language=HTML, caption=K\^{о}д четврте странице, label={lst:prva}, numbers=left]
+<html>
+<head>
+ <title>Cetvrta stranica</title>
+ <link rel="stylesheet" href="my.css">
+</head>
+<body>
+ <h1>Cetvrta stranica</h1>
+ <ul>
+  <li><a href="http://localhost/prva.html">Prva stranica</a></li>
+ </ul>
+ <p>Cetvrta stranica ima hipervezu ka prvoj stranici. Ova stranica se realizuje u cilju testiranja veb
+ pretrazivaca.</p>
+</body>
+</html>
+\end{lstlisting}%
+\medskip
+Странице су затим постављене на локални сервер. Кад се уз к\^{о}д \ref{lst:finalcode} пусти наредба:\\
+\lstinline{print(lookup(index, 'stranica')}, добија се следећи резултат:
+\begin{lstlisting}
+['http://localhost/prva.html',
+ 'http://localhost/prva.html',
+ 'http://localhost/cetvrta.html',
+ 'http://localhost/cetvrta.html',
+ 'http://localhost/treca.html',
+ 'http://localhost/treca.html',
+ 'http://localhost/druga.html',
+ 'http://localhost/druga.html']
+\end{lstlisting}
+Очигледно је да обично прегледање без рангирања даје списак свих хипервеза који одговарају датој кључној речи.
+\pagebreak
+Сада ће уз исти к\^{о}д бити дата наредба:\\
+\lstinline{print(compute_ranks(graph))} и тада се добија
+\begin{lstlisting}
+{'http://localhost/treca.html': 0.1572993996378601,
+ 'http://localhost/cetvrta.html': 0.28313891934814817,
+ 'http://localhost/prva.html': 0.40226228137613174,
+ 'http://localhost/druga.html': 0.1572993996378601}
+\end{lstlisting}
+У овом случају, испоставља се мапа у којој су кључеви хипервезе, а вредности њихов ранг у моделу.\\
+Ако је потребно поређати хипервезе по редоследу рангирања, онда се наредбом:\\
+\lstinline{print(rank_list(compute_graph(graph)))}, добија листа\\
+\begin{lstlisting}
+['http://localhost/prva.html',
+ 'http://localhost/cetvrta.html',
+ 'http://localhost/treca.html',
+ 'http://localhost/druga.html']
+\end{lstlisting}
+И за сам крај, могуће је доставити кориснику тачно једну хипервезу, која одговара упиту и која има највећи ранг од свих хипервеза које одговарају упиту.\\
+\lstinline{print(lucky_search(index, compute_ranks(graph), 'stranica'))}, тако да је резултат само прва страница.
+\begin{lstlisting}
+http://localhost/prva.html
+\end{lstlisting}
+
+Може се извући закључак да је далеко корисније претраживање са укљученим модулом рангирања, које омогућава кориснику да за свој задати упит добије као резултат једну или више рангираних страница и тиме добије адекватну информацију.

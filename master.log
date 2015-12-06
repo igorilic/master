@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  30 NOV 2015 20:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  6 DEC 2015 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,48 +1004,50 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 26.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 \c@sidenote=\count145
+
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./master.aux
+(./uvod.aux) (./2_0_prog_jez_Py.aux) (./2_1_Rac_i_prom.aux)
+(./2_2_Tip_podataka.aux) (./2_3_uslov.aux) (./2_4_petlje.aux)
+(./2_5_funkcije.aux) (./2_6_klase.aux) (./3_0_pretraga.aux) (./4_0_crawler.aux)
+(./5_0_query.aux) (./6_0_rang.aux) (./7_0_zakljucak.aux) (./appendix_a.aux)
+(./appendix_b.aux
 
 LaTeX Warning: Label `lst:prva' multiply defined.
 
-)
+) (./appendix_v.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1066,7 +1068,7 @@ Package ucs Warning: ***************************
 (ucs)                ***************************
 (ucs)                Activating compatibility mode.
 (ucs)                ***************************
-(ucs)                 on input line 57.
+(ucs)                 on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -1138,7 +1140,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 57.
+Package hyperref Info: Link coloring ON on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1147,9 +1149,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./master.out) (./master.out)
 \@outlinefile=\write4
@@ -1169,7 +1171,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<vecigrb.png, id=277, 346.29375pt x 409.53pt>
+<vecigrb.png, id=281, 346.29375pt x 409.53pt>
 File: vecigrb.png Graphic file (type png)
  <use vecigrb.png>
 Package pdftex.def Info: vecigrb.png used on input line 87.
@@ -1183,334 +1185,792 @@ Package pdftex.def Info: vecigrb.png used on input line 87.
 
 
 [2]
+\openout2 = `uvod.aux'.
+
+ (./uvod.tex
 
 LaTeX Warning: Citation `langville2011google' on page 1 undefined on input line
- 70.
+ 2.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \section
-             {–ü—Ä–æ–≥—Ä–∞–º—Å–∫–∏ —ò–µ–∑–∏–∫ Python} [1]
+l.79 \include{uvod}
+                    [1
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 81.
+]
+\openout2 = `2_0_prog_jez_Py.aux'.
 
+ (./2_0_prog_jez_Py.tex
 
-LaTeX Warning: Citation `tosic' on page 2 undefined on input line 93.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-
- []
+LaTeX Warning: Citation `tosic' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation `briggs2012python' on page 2 undefined on input line 99
+LaTeX Warning: Citation `briggs2012python' on page 2 undefined on input line 29
 .
 
+[2
 
-LaTeX Warning: Citation `pythonsite' on page 2 undefined on input line 101.
 
-[2]
+]
 
-LaTeX Warning: Citation `pythonsite' on page 3 undefined on input line 105.
+LaTeX Warning: Citation `pythonsite' on page 3 undefined on input line 33.
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 105
-.
+
+LaTeX Warning: Citation `pythonsite' on page 3 undefined on input line 40.
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 40.
+
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
-
- []
+)) [3]
+\openout2 = `2_1_Rac_i_prom.aux'.
 
 
-LaTeX Warning: Citation `van2003introduction' on page 3 undefined on input line
- 109.
+(./2_1_Rac_i_prom.tex
+
+LaTeX Warning: Citation `van2003introduction' on page 4 undefined on input line
+ 5.
 
 
-LaTeX Warning: Citation `lutz2009learning' on page 3 undefined on input line 10
-9.
+LaTeX Warning: Citation `lutz2009learning' on page 4 undefined on input line 5.
 
-[3]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 124--124
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 129--129
+Overfull \hbox (6.0pt too wide) in paragraph at lines 25--25
 [][][][][][][] 
  []
 
-! Undefined control sequence.
-l.130 ...–∞–ª–≥–µ–±–∞—Ä—Å–∫–æ–º –æ–±–ª–∏–∫—É\jndex
-                                                  {Python!kompleksni@–∫–æ–º–...
-
-? 
-
-Overfull \hbox (115.9235pt too wide) in paragraph at lines 130--131
-\T2A/cmr/m/n/10.95 “‡ÍÓ¢Â, Python ÓÏÓ-„Û-£‡‚‡ Ë ‡-˜Û-Ì‡ªÂ Ò‡ ÍÓÏ-ÔÎÂÍ-ÒÌËÏ ·Ó
--jÂ-‚ËÏ‡ Û ‡Î-„Â-·‡-ÒÍÓÏ Ó·ÎË-ÍÛ-Python!kompleksni@ÍÓÏÔÎÂÍÒÌË
- []
+[4
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 140--140
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 36--36
 [][][][][][][] 
  []
 
-[4] <1a.png, id=428, 82.3075pt x 96.36pt>
+<1a.png, id=429, 82.3075pt x 96.36pt>
 File: 1a.png Graphic file (type png)
  <use 1a.png>
-Package pdftex.def Info: 1a.png used on input line 148.
+Package pdftex.def Info: 1a.png used on input line 45.
 (pdftex.def)             Requested size: 82.30728pt x 96.35974pt.
 
-<2a.png, id=429, 92.345pt x 88.33pt>
+
+LaTeX Warning: Command \$ invalid in math mode on input line 46.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 1}
+                                                  
+? 
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrf invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 46.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 1}
+                                                  
+? 
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ù in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+
+LaTeX Warning: Command \$ invalid in math mode on input line 46.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 1}
+                                                  
+? 
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrf invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 46.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 1}
+                                                  
+? 
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ù in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+<2a.png, id=430, 92.345pt x 88.33pt>
 File: 2a.png Graphic file (type png)
  <use 2a.png>
-Package pdftex.def Info: 2a.png used on input line 159.
+Package pdftex.def Info: 2a.png used on input line 57.
 (pdftex.def)             Requested size: 92.34476pt x 88.32977pt.
 
-<1.png, id=430, 36.135pt x 69.25874pt>
+<1.png, id=431, 36.135pt x 69.25874pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
-Package pdftex.def Info: 1.png used on input line 160.
+Package pdftex.def Info: 1.png used on input line 58.
 (pdftex.def)             Requested size: 36.13489pt x 69.25856pt.
 
-<2ab.png, id=431, 153.57375pt x 88.33pt>
+
+LaTeX Warning: Command \$ invalid in math mode on input line 59.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 2}
+                                                  
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrf invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 59.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 2}
+                                                  
+? 
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ù in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+
+LaTeX Warning: Command \$ invalid in math mode on input line 59.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 2}
+                                                  
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrf invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 59.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59 ... —Ä–µ—Ñ–µ—Ä–∏—à–µ –Ω–∞ –≤—Ä–µ–¥–Ω–æ—Å—Ç 2}
+                                                  
+? 
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ù in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+<2ab.png, id=432, 153.57375pt x 88.33pt>
 File: 2ab.png Graphic file (type png)
  <use 2ab.png>
-Package pdftex.def Info: 2ab.png used on input line 171.
+Package pdftex.def Info: 2ab.png used on input line 69.
 (pdftex.def)             Requested size: 153.57336pt x 88.32977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
+LaTeX Warning: Command \$ invalid in math mode on input line 70.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...–µ—Ä–∏—à—É –Ω–∞ –∏—Å—Ç—É –≤—Ä–µ–¥–Ω–æ—Å—Ç}
+                                                  
+? 
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 70.
+
+Missing character: There is no Ë in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...–µ—Ä–∏—à—É –Ω–∞ –∏—Å—Ç—É –≤—Ä–µ–¥–Ω–æ—Å—Ç}
+                                                  
+? 
+
+LaTeX Warning: Command \$ invalid in math mode on input line 70.
+
+
+! LaTeX Error: Command \$ unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...–µ—Ä–∏—à—É –Ω–∞ –∏—Å—Ç—É –≤—Ä–µ–¥–Ω–æ—Å—Ç}
+                                                  
+? 
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 70.
+
+Missing character: There is no Ë in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...–µ—Ä–∏—à—É –Ω–∞ –∏—Å—Ç—É –≤—Ä–µ–¥–Ω–æ—Å—Ç}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `pythonista' on page 5 undefined on input line 75.
+
+[5 <./1a.png> <./2a.png> <./1.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 84--84
+[][][][][][][] 
  []
 
-[5 <./1a.png> <./2a.png> <./1.png> <./2ab.png>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 189--189
+) [6 <./2ab.png>]
+\openout2 = `2_2_Tip_podataka.aux'.
+
+ (./2_2_Tip_podataka.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 15--15
+[][][][][][][] 
+ []
+
+[7
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 205--205
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][] 
  []
 
-[6]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 213--213
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 220--220
-[][][][][][][] 
- []
-
-<hello_string.png, id=464, 202.50656pt x 112.92188pt>
+<hello_string.png, id=471, 202.50656pt x 112.92188pt>
 File: hello_string.png Graphic file (type png)
  <use hello_string.png>
-Package pdftex.def Info: hello_string.png used on input line 224.
+Package pdftex.def Info: hello_string.png used on input line 35.
 (pdftex.def)             Requested size: 202.50604pt x 112.92159pt.
 
-[7 <./hello_string.png>]
-Overfull \hbox (20.20432pt too wide) in paragraph at lines 248--249
+[8 <./hello_string.png>]
+Overfull \hbox (20.20432pt too wide) in paragraph at lines 59--60
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (20.20432pt too wide) in paragraph at lines 260--261
+Overfull \hbox (20.20432pt too wide) in paragraph at lines 71--72
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (26.7371pt too wide) in paragraph at lines 262--263
+Overfull \hbox (26.7371pt too wide) in paragraph at lines 73--74
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 265--265
+Overfull \hbox (6.0pt too wide) in paragraph at lines 76--76
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
-
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 274--274
+Overfull \hbox (6.0pt too wide) in paragraph at lines 86--86
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 281--281
+Overfull \hbox (6.0pt too wide) in paragraph at lines 92--92
 [][][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
- []
-
-<bitlsi1.png, id=483, 485.815pt x 63.23625pt>
+<bitlsi1.png, id=490, 485.815pt x 63.23625pt>
 File: bitlsi1.png Graphic file (type png)
  <use bitlsi1.png>
-Package pdftex.def Info: bitlsi1.png used on input line 289.
+Package pdftex.def Info: bitlsi1.png used on input line 97.
 (pdftex.def)             Requested size: 242.9069pt x 31.61804pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<bitlsi2.png, id=484, 479.7925pt x 100.375pt>
+<bitlsi2.png, id=491, 479.7925pt x 100.375pt>
 File: bitlsi2.png Graphic file (type png)
  <use bitlsi2.png>
-Package pdftex.def Info: bitlsi2.png used on input line 296.
+Package pdftex.def Info: bitlsi2.png used on input line 106.
 (pdftex.def)             Requested size: 239.89565pt x 50.18736pt.
+ [9]
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--302
-
- []
-
-[8]
-
-Package Listings Warning: Text dropped after begin of listing on input line 304
+Package Listings Warning: Text dropped after begin of listing on input line 114
 .
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 312--312
+Overfull \hbox (6.0pt too wide) in paragraph at lines 122--122
 [][][][][][][] 
  []
 
-[9 <./bitlsi1.png> <./bitlsi2.png>]
+[10 <./bitlsi1.png> <./bitlsi2.png>]
 
-Package Listings Warning: Text dropped after begin of listing on input line 336
+Package Listings Warning: Text dropped after begin of listing on input line 148
 .
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 354--354
-[][][][][][][] 
- []
-
-[10]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 374--374
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 379--379
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 386--386
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 390--390
+Overfull \hbox (6.0pt too wide) in paragraph at lines 166--166
 [][][][][][][] 
  []
 
 [11]
-Overfull \hbox (42.51848pt too wide) in paragraph at lines 394--403
- [][] 
+Overfull \hbox (6.0pt too wide) in paragraph at lines 187--187
+[][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 424--424
+Overfull \hbox (6.0pt too wide) in paragraph at lines 193--193
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 201--201
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 206--206
 [][][][][][][] 
  []
 
 [12]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 437--437
-[][][][][][][] 
+Overfull \hbox (42.51848pt too wide) in paragraph at lines 211--220
+ [][] 
  []
 
 
-LaTeX Warning: Citation `PEP' on page 13 undefined on input line 444.
-
-<whitespace.png, id=610, 770.88pt x 504.88625pt>
-File: whitespace.png Graphic file (type png)
- <use whitespace.png>
-Package pdftex.def Info: whitespace.png used on input line 448.
-(pdftex.def)             Requested size: 385.43906pt x 252.44249pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 459--459
+Overfull \hbox (6.0pt too wide) in paragraph at lines 242--242
 [][][][][][][] 
  []
 
 [13]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 469--469
+Overfull \hbox (6.0pt too wide) in paragraph at lines 256--256
+[][][][][][][] 
+ []
+
+) [14]
+\openout2 = `2_3_uslov.aux'.
+
+ (./2_3_uslov.tex
+
+LaTeX Warning: Citation `PEP' on page 15 undefined on input line 6.
+
+<whitespace.png, id=630, 770.88pt x 504.88625pt>
+File: whitespace.png Graphic file (type png)
+ <use whitespace.png>
+Package pdftex.def Info: whitespace.png used on input line 10.
+(pdftex.def)             Requested size: 385.43906pt x 252.44249pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
+[][][][][][][] 
+ []
+
+[15
+
+
+ <./whitespace.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--486
+Underfull \hbox (badness 10000) in paragraph at lines 33--48
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[14 <./whitespace.png>]
+) [16] [17]
+\openout2 = `2_4_petlje.aux'.
 
-LaTeX Warning: Citation `PEP' on page 15 undefined on input line 493.
+ (./2_4_petlje.tex
+
+LaTeX Warning: Citation `PEP' on page 18 undefined on input line 2.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 501--501
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10--10
 [][][][][][][] 
  []
 
-[15]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 511--511
+[18
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
+[][][][][][][] 
+ []
+
+) [19]
+\openout2 = `2_5_funkcije.aux'.
+
+ (./2_5_funkcije.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 15--15
+[][][][][][][] 
+ []
+
+) [20
+
+
+]
+\openout2 = `2_6_klase.aux'.
+
+ (./2_6_klase.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--16
+[][][][][][][] 
+ []
+
+[21
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 527--527
+Overfull \hbox (6.0pt too wide) in paragraph at lines 35--35
 [][][][][][][] 
  []
 
-[16]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 547--547
-[][][][][][][] 
- []
+) [22]
+\openout2 = `3_0_pretraga.aux'.
 
-[17]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 555--555
-[][][][][][][] 
- []
+ (./3_0_pretraga.tex
+
+LaTeX Warning: Citation `langville2011google' on page 23 undefined on input lin
+e 3.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 566--566
-[][][][][][][] 
- []
-
-[18]
-
-LaTeX Warning: Citation `langville2011google' on page 19 undefined on input lin
-e 574.
+LaTeX Warning: Citation `langville2011google' on page 23 undefined on input lin
+e 3.
 
 
-LaTeX Warning: Citation `langville2011google' on page 19 undefined on input lin
-e 574.
+LaTeX Warning: Citation `berry2005understanding' on page 23 undefined on input 
+line 5.
 
 
-LaTeX Warning: Citation `berry2005understanding' on page 19 undefined on input 
-line 576.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 574--578
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
@@ -1518,242 +1978,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 574--578
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
-LaTeX Warning: Citation `berners2004weaving' on page 19 undefined on input line
- 579.
+LaTeX Warning: Citation `berners2004weaving' on page 23 undefined on input line
+ 8.
 
 
-LaTeX Warning: Citation `langville2011google' on page 19 undefined on input lin
-e 580.
+LaTeX Warning: Citation `langville2011google' on page 23 undefined on input lin
+e 9.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--582
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-[19] <crawling.png, id=719, 951.555pt x 862.22125pt>
+[23
+
+
+] <crawling.png, id=739, 951.555pt x 862.22125pt>
 File: crawling.png Graphic file (type png)
  <use crawling.png>
-Package pdftex.def Info: crawling.png used on input line 603.
+Package pdftex.def Info: crawling.png used on input line 32.
 (pdftex.def)             Requested size: 475.77634pt x 431.10957pt.
 
-Overfull \hbox (6.02132pt too wide) in paragraph at lines 603--604
+Overfull \hbox (6.02132pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
 
-LaTeX Warning: Citation `langville2011google' on page 20 undefined on input lin
-e 604.
+LaTeX Warning: Citation `langville2011google' on page 24 undefined on input lin
+e 33.
 
 
-LaTeX Warning: Citation `langville2011google' on page 20 undefined on input lin
-e 604.
+LaTeX Warning: Citation `langville2011google' on page 24 undefined on input lin
+e 33.
 
-[20] [21 <./crawling.png>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 625--625
+[24] [25 <./crawling.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 54--54
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 644--644
+Overfull \hbox (6.0pt too wide) in paragraph at lines 73--73
 [][][][][][][] 
  []
 
-[22]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 657--657
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 670--670
-[][][][][][][] 
- []
-
-[23]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 683--683
+[26]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 86--86
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
-
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 701--701
+Overfull \hbox (6.0pt too wide) in paragraph at lines 99--99
 [][][][][][][] 
  []
 
-[24]
-
-LaTeX Warning: Reference `lst:get_all_pages' on page 25 undefined on input line
- 710.
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 733--733
+[27]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 112--112
 [][][][][][][] 
  []
 
-[25]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 750--750
-[][][][][][][] 
- []
+) [28]
+\openout2 = `4_0_crawler.aux'.
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 768--768
-[][][][][][][] 
- []
-
-[26] [27] <index1.png, id=864, 338.26375pt x 126.4725pt>
-File: index1.png Graphic file (type png)
- <use index1.png>
-Package pdftex.def Info: index1.png used on input line 779.
-(pdftex.def)             Requested size: 200.75584pt x 75.28197pt.
-
-<index2.png, id=866, 440.64626pt x 168.63pt>
-File: index2.png Graphic file (type png)
- <use index2.png>
-Package pdftex.def Info: index2.png used on input line 787.
-(pdftex.def)             Requested size: 260.9876pt x 100.37596pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--793
+ (./4_0_crawler.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--793
-
- []
-
-<index3.png, id=868, 498.86375pt x 181.67876pt>
-File: index3.png Graphic file (type png)
- <use index3.png>
-Package pdftex.def Info: index3.png used on input line 797.
-(pdftex.def)             Requested size: 301.13222pt x 110.41635pt.
- [28 <./index1.png> <./index2.png> <./index3.png>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 817--817
+Overfull \hbox (6.0pt too wide) in paragraph at lines 17--17
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 829--829
+LaTeX Warning: Reference `lst:get_all_pages' on page 29 undefined on input line
+ 26.
+
+[29
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 49--49
 [][][][][][][] 
  []
 
-[29]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 838--838
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 66--66
 [][][][][][][] 
  []
 
 [30]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 899--899
+Overfull \hbox (6.0pt too wide) in paragraph at lines 84--84
+[][][][][][][] 
+ []
+
+) [31]
+\openout2 = `5_0_query.aux'.
+
+ (./5_0_query.tex <index1.png, id=884, 338.26375pt x 126.4725pt>
+File: index1.png Graphic file (type png)
+
+<use index1.png>
+Package pdftex.def Info: index1.png used on input line 9.
+(pdftex.def)             Requested size: 200.75584pt x 75.28197pt.
+ <index2.png, id=886, 440.64626pt x 168.63pt>
+File: index2.png Graphic file (type png)
+ <use index2.png>
+Package pdftex.def Info: index2.png used on input line 17.
+(pdftex.def)             Requested size: 260.9876pt x 100.37596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
+
+ []
+
+<index3.png, id=888, 498.86375pt x 181.67876pt>
+File: index3.png Graphic file (type png)
+ <use index3.png>
+Package pdftex.def Info: index3.png used on input line 27.
+(pdftex.def)             Requested size: 301.13222pt x 110.41635pt.
+ [32
+
+
+ <./index1.png> <./index2.png> <./index3.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 47--47
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 909--909
+Overfull \hbox (6.0pt too wide) in paragraph at lines 59--59
 [][][][][][][] 
  []
 
-[31]
+[33]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
+[][][][][][][] 
+ []
 
-LaTeX Warning: Citation `cormen2001introduction' on page 32 undefined on input 
-line 915.
+[34]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 129--129
+[][][][][][][] 
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--924
+Overfull \hbox (6.0pt too wide) in paragraph at lines 139--139
+[][][][][][][] 
+ []
+
+[35]
+
+LaTeX Warning: Citation `cormen2001introduction' on page 36 undefined on input 
+line 145.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--154
 
  []
 
-<hashtab1.png, id=978, 473.77pt x 162.6075pt>
+<hashtab1.png, id=999, 473.77pt x 162.6075pt>
 File: hashtab1.png Graphic file (type png)
  <use hashtab1.png>
-Package pdftex.def Info: hashtab1.png used on input line 931.
+Package pdftex.def Info: hashtab1.png used on input line 161.
 (pdftex.def)             Requested size: 473.79053pt x 162.6195pt.
 
-Overfull \hbox (4.0355pt too wide) in paragraph at lines 931--932
+Overfull \hbox (4.0355pt too wide) in paragraph at lines 161--162
  [][] 
  []
 
-[32] <hashtab2.png, id=984, 447.6725pt x 257.96375pt>
+[36] <hashtab2.png, id=1005, 447.6725pt x 257.96375pt>
 File: hashtab2.png Graphic file (type png)
  <use hashtab2.png>
-Package pdftex.def Info: hashtab2.png used on input line 939.
+Package pdftex.def Info: hashtab2.png used on input line 169.
 (pdftex.def)             Requested size: 447.68506pt x 257.98671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--944
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--947
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[33 <./hashtab1.png> <./hashtab2.png (PNG copy)>]
-<hashstring.png, id=994, 598.235pt x 112.42pt>
+[37 <./hashtab1.png> <./hashtab2.png (PNG copy)>]
+<hashstring.png, id=1014, 598.235pt x 112.42pt>
 File: hashstring.png Graphic file (type png)
  <use hashstring.png>
-Package pdftex.def Info: hashstring.png used on input line 951.
+Package pdftex.def Info: hashstring.png used on input line 181.
 (pdftex.def)             Requested size: 401.50912pt x 75.28497pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 959--959
+Overfull \hbox (6.0pt too wide) in paragraph at lines 189--189
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 971--971
+Overfull \hbox (6.0pt too wide) in paragraph at lines 201--201
 [][][][][][][] 
  []
 
-[34 <./hashstring.png (PNG copy)>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 983--983
-[][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 992--992
+[38 <./hashstring.png (PNG copy)>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 213--213
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 998--998
-[][][][][][][] 
- []
-
-[35]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1011--1011
+Overfull \hbox (6.0pt too wide) in paragraph at lines 222--222
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1033--1033
+Overfull \hbox (6.0pt too wide) in paragraph at lines 228--228
 [][][][][][][] 
  []
 
-[36] [37]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1101--1101
+[39]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 241--241
 [][][][][][][] 
  []
 
-[38]
 
-LaTeX Warning: Citation `langville2011google' on page 39 undefined on input lin
-e 1107.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 263--263
+[][][][][][][] 
+ []
+
+[40] [41]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 331--331
+[][][][][][][] 
+ []
+
+) [42]
+\openout2 = `6_0_rang.aux'.
+
+ (./6_0_rang.tex
+
+LaTeX Warning: Citation `langville2011google' on page 43 undefined on input lin
+e 5.
 
 
-LaTeX Warning: Command \cyrje invalid in math mode on input line 1114.
+LaTeX Warning: Command \cyrje invalid in math mode on input line 12.
 
 
-LaTeX Warning: Citation `langville2011google' on page 39 undefined on input lin
-e 1114.
+LaTeX Warning: Citation `langville2011google' on page 43 undefined on input lin
+e 12.
 
-<graf.png, id=1147, 492.84125pt x 353.32pt>
+<graf.png, id=1167, 492.84125pt x 353.32pt>
 File: graf.png Graphic file (type png)
  <use graf.png>
-Package pdftex.def Info: graf.png used on input line 1122.
+Package pdftex.def Info: graf.png used on input line 20.
 (pdftex.def)             Requested size: 295.70702pt x 211.99364pt.
 
 
@@ -1762,47 +2239,65 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39]
-
-LaTeX Warning: Citation `filipovic2006operatori' on page 40 undefined on input 
-line 1162.
+[43
 
 
-LaTeX Warning: Citation `langville2011google' on page 40 undefined on input lin
-e 1162.
+]
 
-[40 <./graf.png>] [41]
-Overfull \hbox (65.93385pt too wide) in paragraph at lines 1216--1217
+LaTeX Warning: Citation `filipovic2006operatori' on page 44 undefined on input 
+line 60.
+
+
+LaTeX Warning: Citation `langville2011google' on page 44 undefined on input lin
+e 60.
+
+[44 <./graf.png>] [45]
+Overfull \hbox (65.93385pt too wide) in paragraph at lines 114--115
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1221--1221
+Overfull \hbox (6.0pt too wide) in paragraph at lines 119--119
 [][][][][][][] 
  []
 
-[42]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1244--1244
+[46]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 142--142
 [][][][][][][] 
  []
 
-[43]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1277--1277
+[47]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 175--175
 [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1297--1297
+Overfull \hbox (6.0pt too wide) in paragraph at lines 195--195
 [][][][][][][] 
  []
 
-[44] [45] (./crawler.py [46] [47])
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1310--1310
+) [48]
+\openout2 = `7_0_zakljucak.aux'.
+
+ (./7_0_zakljucak.tex) [49
+
+
+]
+\openout2 = `appendix_a.aux'.
+
+ (./appendix_a.tex (./crawler.py [50
+
+
+] [51])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][][][][][][] 
  []
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 1313--1314
+) [52]
+\openout2 = `appendix_b.aux'.
+
+ (./appendix_b.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
@@ -1812,59 +2307,71 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1333--1333
+Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
 [][][][][][][] 
  []
 
 
-Overfull \hbox (183.5241pt too wide) in paragraph at lines 1347--1348
+Overfull \hbox (183.5241pt too wide) in paragraph at lines 36--37
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1351--1351
+Overfull \hbox (6.0pt too wide) in paragraph at lines 40--40
 [][][][][][][] 
  []
 
-[49]
-Overfull \hbox (203.12247pt too wide) in paragraph at lines 1365--1366
+[53
+
+
+]
+Overfull \hbox (203.12247pt too wide) in paragraph at lines 54--55
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1369--1369
+Overfull \hbox (6.0pt too wide) in paragraph at lines 58--58
 [][][][][][][] 
  []
 
 
-Overfull \hbox (196.58968pt too wide) in paragraph at lines 1382--1383
+Overfull \hbox (196.58968pt too wide) in paragraph at lines 71--72
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1386--1386
+Overfull \hbox (6.0pt too wide) in paragraph at lines 75--75
 [][][][][][][] 
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1413
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
-[51] (./master.lol [52])
+) [55]
+\openout2 = `appendix_v.aux'.
+
+ (./appendix_v.tex (./master.lol [56
+
+
+])
 \tf@lol=\write6
 \openout6 = `master.lol'.
 
- [53]
+) [57]
 No file master.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1442.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1442.
-(./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1442.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1442.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+(./master.aux (./uvod.aux) (./2_0_prog_jez_Py.aux) (./2_1_Rac_i_prom.aux)
+(./2_2_Tip_podataka.aux) (./2_3_uslov.aux) (./2_4_petlje.aux)
+(./2_5_funkcije.aux) (./2_6_klase.aux) (./3_0_pretraga.aux) (./4_0_crawler.aux)
+(./5_0_query.aux) (./6_0_rang.aux) (./7_0_zakljucak.aux) (./appendix_a.aux)
+(./appendix_b.aux) (./appendix_v.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: C23A8C939B62D4E406CF39AD61D11098;15020.
+(rerunfilecheck)             Checksum: A8AE79885DBA1EB8A61C11BC11228299;15281.
 
 
 LaTeX Warning: There were undefined references.
@@ -1874,13 +2381,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19302 strings out of 493304
- 263711 string characters out of 6139870
- 375752 words of memory out of 5000000
- 21509 multiletter control sequences out of 15000+600000
+ 19438 strings out of 493304
+ 265681 string characters out of 6139870
+ 382769 words of memory out of 5000000
+ 21529 multiletter control sequences out of 15000+600000
  27609 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,11n,51p,3715b,1891s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,53p,3738b,1891s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -1907,10 +2414,10 @@ er/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sftt1095.pfb>
-Output written on master.pdf (56 pages, 804419 bytes).
+Output written on master.pdf (60 pages, 806473 bytes).
 PDF statistics:
- 1902 PDF objects out of 2073 (max. 8388607)
- 1767 compressed objects within 18 object streams
- 972 named destinations out of 1000 (max. 500000)
- 630 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1923 PDF objects out of 2073 (max. 8388607)
+ 1784 compressed objects within 18 object streams
+ 976 named destinations out of 1000 (max. 500000)
+ 638 words of extra memory for PDF output out of 10000 (max. 10000000)
 

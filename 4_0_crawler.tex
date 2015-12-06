@@ -1,0 +1,86 @@
+\section{Креирање "веб-паука"}    
+	\subsection{Смештање хипервеза у листу}
+	Користећи претходно описано проналажење свих хипервеза(в. к\^{о}д \ref{lst:print_all_links}), а за потребе креирања веб-паука, потребно је сакупити све хипервезе у неку колекцију, како би касније ти подаци могли бити даље процесуирани. \\
+	
+		У наредном к\^{о}ду, све хипервезе ће бити скупљене у листу. Уместо листе, могуће је користити и друге структуре као на пример мапе, али такви примери ће бити реализовани касније у оквиру овог рада.  
+		\begin{lstlisting}[caption=Процедура смештања свих хиперлинкова у листу, label={lst:getalllinks}, numbers=left]
+def get_all_links(page):
+    links = []
+    while True:
+        url, endpos = get_next_target(page)
+        if url:
+            links.append(url)
+            page=page[endpos:]
+        else:
+            break
+    return links
+		\end{lstlisting}
+		У линији 4 се користе уређене n-торке, додељују се вредности променљивима \textbf{url} и \textbf{endpos}. Ако хипервеза постоји, биће додата у листу и траже се друге хипервезе почев од последњег знака наводника претходне хипервезе. Иначе, ако линк не постоји, петља се прекида и процедура враћа листу свих хипервеза\index{HTML@\emph{HTML}!hiperlink@хиперлинк} са дате веб странице.
+	\subsection{Завршетак веб-паука}
+	Веб паук би требао да нађе све хипервезе на задатој веб страници и да их смести у листу. Даље, веб-паук наставља процес следећи пронађене хипервезе и на тим веб страницама ће налазити нове хипервезе. Да се процес тражења хипервеза не би више пута понављао на истим веб страницама потребно је користити две променљиве:
+	\begin{description}
+	\item[tocrawl] у овој листи ће бити смештене странице које је потребно прегледати 
+	\item[crawled] у овој листи ће бити смештене странице које су већ прегледане
+	\end{description}
+		\subsubsection{Завршни к\^oд}
+		Претпоставља се да су познате процедуре \textbf{get\_next\_target} и \textbf{get\_all\_pages}, чији к\^{о}д је наведен у претходним поглављима(в. к\^{о}дове \ref{lst:get_next_target_2}, \ref{lst:get_all_pages}). Да би се к\^{о}д нове процедуре \textbf{crawl\_web} учинио прегледнијим, биће уведена и процедура \textbf{union} која прави унију две листе. Процедура \textbf{get\_page}  узима хипервезу и враћа HTML к\^{о}д те стране. Ако се страница не може отворити из разних разлога и/или је дата веб страница празна, процедура враћа празну ниску.  
+		\begin{lstlisting}[caption=Веб паук, label={lst:crawlweb1}, numbers=left]
+def get_page(url):
+    try:
+        import urllib
+        return urllib.urlopen(url).read()
+    except:
+        return ""
+     
+def union(a, b):
+    for e in b:
+        if e not in p:
+            p.append(e)
+
+def crawl_web(seed):
+    tocrawl = [seed]
+    crawled = []
+    while tocrawl:
+        page = tocrawl.pop()
+        if page not in crawled:
+            union(tocrawl, get_all_links(get_page(page)))
+            crawled.append(page)
+    return crawled
+		\end{lstlisting}
+		Процедура прво поставља две листе, оно што је потребно претражити и ту поставља први елемент, иницијалну страницу. Друга променљива је она у коју се смештају странице које су већ претражене и она је иницијално празна. Кад се страница претражи, она се додаје у \textbf{crawled} листу да се не би више пута непотребно претраживала.\\
+		  У линији 9 почиње петља, која ради док листа \textbf{tocrawl} има елемената. Кад листа више нема страница за скенирање, процедура враћа листу прегледаних страна. У петљи се скида последња хипервеза из \textbf{tocrawl} листе и на основу одговора после питања из услова да ли је та страница већ претражена, процедура је даље претражује или не. На крају хипервеза бива додата листи већ претражених страна. 
+		\subsubsection{Ограничен број страна по свакој хипервези}
+		Уколико не постоји потреба за претраживањем свих веб страница на које упућују хипервезе које су прегледане у току процесу тражења свих хипервеза који је описан у претходном поглављу , већ је потребно прегледати само првих неколико страница, тада да је могуће одредити колико ће се веб страница претражити. У наредном примеру, вредност максималног броја прегледаних страница ће бити смештена у променљиву \textbf{max\_pages}:
+		\begin{lstlisting}[caption=Претраживање са ограниченим бројем страна, label={lst:crawlweb2}, numbers=left]
+def crawl_web(seed, max_pages):
+    tocrawl = [seed]
+    crawled =[]
+    count = 0 # vrednost brojaca inicijalno na 0
+    while tocrawl and count < max_pages:
+        page = tocrawl.pop()
+        if page not in crawled:
+            union(tocrawl, get_all_links(get_page(page)))
+            crawled.append(page)
+            count = count + 1 # iteracija brojaca posle svakog linka
+    return crawled
+		\end{lstlisting}
+		Дакле, петљa se прекида ако је листа празна или ако је прекорачен максимални број хипервеза по страници. 
+		\subsubsection{Ограничена "дубина" претраживања}
+		Ефикаснији начин ограничавања рада веб-паука да не претражује све странице је да се постави одговарајућа "дубина" претраживања. Дубина ће у наредном примеру бити одређена променљивом \textbf{max\_depth}.
+		\begin{lstlisting}[caption=Скенирање ограничено по дубини, label={lst:crawlweb3}, numbers=left]
+def crawl_web (seed, max_depth):
+    tocrawl = [seed, 0] # postavlja se 0 kao pocetna dubina
+    crawled = []
+    while tocrawl:
+        layer = tocrawl.pop()
+        depth = layer[1]
+        if depth <= max_depth:
+            for url in layer[0]:
+                if url not in crawled:
+                    union(tocrawl, [get_all_links(get_page(url)),depth+1])
+                    # dubina se povecala za 1
+                    crawled.append(url)
+    return crawled
+		\end{lstlisting}
+		За потребе оваквог ограничавања, измењена је листа \textbf{tocrawl}, у којој сада постоји пар елемената: страница и број. Број се повећава кад се прегледају све хипервезе са одређене странице и пређе на нову страну. Тако се  ограничава веб-паук да после одређеног броја прегледаних страница заустави свој рад.
+		\pagebreak

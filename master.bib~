@@ -79,7 +79,7 @@ year = {1997}
   url={http://books.google.rs/books?id=Tk5\_PwAACAAJ},
   year={2004},
   publisher={Demco Media}
-}
+} 
 @book{cormen2001introduction,
   title={Introduction To Algorithms},
   author={Cormen, T.H. and Leiserson, C.E. and Rivest, R.L. and Stein, C.},
@@ -88,12 +88,12 @@ year = {1997}
   url={http://books.google.rs/books?id=NLngYyWFl\_YC},
   year={2001},
   publisher={MIT Press}
-}
+} 
 @misc{PEP,
   title = {PEP 8 - Style Guide for Python Code},
   howpublished = {\url{http://legacy.python.org/dev/peps/pep-0008}},
-  note = {Последњи пут приступљено 2014. године}
-
+  note = {Последњи пут приступљено 2014. године} 
+  
 }
 
 @Misc{vim,
@@ -105,11 +105,5 @@ year = {1997}
 @Misc{pythonsite,
 title = {Python\texttrademark},
 howpublished = {\url{http://www.python.org}},
-note = {Последњи пут приступљено 2014. године}
-}
-
-@Misc{pythonista,
-title = {Pythonista},
-howpublished = {\url{http://python.net/crew/mwh/hacks/objectthink.html}},
 note = {Последњи пут приступљено 2014. године}
 }
