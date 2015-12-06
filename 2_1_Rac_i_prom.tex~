@@ -43,7 +43,7 @@ Moгу се користити и друге математичке операц
 \begin{figure}[here]
 \centering
 \includegraphics{1a.png}
-\caption{$\protect\a$ реферише на вредност 1}
+\caption{\emph{а} реферише на вредност 1}
 \label{slike:a_je_1}
 \end{figure}
 променљива \emph{а} има вредност 1. Може се рећи и да променљива реферише на вредност 1 која се налази негде у меморији.
@@ -56,7 +56,7 @@ Moгу се користити и друге математичке операц
 \centering
 \includegraphics{2a.png}
 \includegraphics{1.png}
-\caption{$\protect\a$ сада реферише на вредност 2}
+\caption{\emph{а} сада реферише на вредност 2}
 \label{slike:a_je_2}
 \end{figure}
 
@@ -67,7 +67,7 @@ Moгу се користити и друге математичке операц
 \begin{figure} [here]
 \centering
 \includegraphics{2ab.png}
-\caption{и $\protect\a$ и $\protect\b$ реферишу на исту вредност}
+\caption{и \emph{а} и \emph{b}реферишу на исту вредност}
 \label{slike:a_b_je_2}
 \end{figure}
 Тада и једна и друга променљива реферишу на исту вредност. Ако би се једној од њих променила вредност, тада би друга реферисала на нову вредност.

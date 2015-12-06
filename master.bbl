@@ -1,0 +1,71 @@
+\begin{thebibliography}{10}
+
+\bibitem{PEP}
+Pep 8 - style guide for python code.
+\newblock \url{http://legacy.python.org/dev/peps/pep-0008}.
+\newblock Последњи пут приступљено 2014. године.
+
+\bibitem{pythonista}
+Pythonista.
+\newblock \url{http://python.net/crew/mwh/hacks/objectthink.html}.
+\newblock Последњи пут приступљено 2014. године.
+
+\bibitem{pythonsite}
+Python\texttrademark.
+\newblock \url{http://www.python.org}.
+\newblock Последњи пут приступљено 2014. године.
+
+\bibitem{berners2004weaving}
+T.~Berners-Lee and M.~Fischetti.
+\newblock {\em Weaving The Web: The Original Design And Ultimate Destiny Of The
+  World Wide Web by Its Inventor}.
+\newblock Demco Media, 2004.
+
+\bibitem{berry2005understanding}
+M.W. Berry and M.~Browne.
+\newblock {\em Understanding Search Engines: Mathematical Modeling and Text
+  Retrieval, Second Edition}.
+\newblock Software, Environments, and Tools. Society for Industrial and Applied
+  Mathematics (SIAM, 3600 Market Street, Floor 6, Philadelphia, PA 19104),
+  2005.
+
+\bibitem{briggs2012python}
+J.R. Briggs.
+\newblock {\em Python for Kids: A Playful Introduction to Programming}.
+\newblock No Starch Press Series. No Starch Press, Incorporated, 2012.
+
+\bibitem{cormen2001introduction}
+T.H. Cormen, C.E. Leiserson, R.L. Rivest, and C.~Stein.
+\newblock {\em Introduction To Algorithms}.
+\newblock MIT Press, 2001.
+
+\bibitem{langville2011google}
+A.N. Langville and C.D. Meyer.
+\newblock {\em Google's PageRank and Beyond: The Science of Search Engine
+  Rankings}.
+\newblock Princeton University Press, 2011.
+
+\bibitem{lutz2009learning}
+M.~Lutz and D.~Ascher.
+\newblock {\em Learning Python}.
+\newblock O'Reilly Media, 2009.
+
+\bibitem{van2003introduction}
+G.~Van~Rossum and J.~Fred L.~Drake.
+\newblock {\em An Introduction to Python}.
+\newblock A Python manual. Network Theory Limited, 2003.
+
+\bibitem{tosic}
+Душан Тошић.
+\newblock {\em Paskal - основи програмирања}.
+\newblock ДП Студентски трг, 1997.
+
+\bibitem{filipovic2006operatori}
+Владимир Филиповић.
+\newblock {\em Оператори селекције и миграције и
+  WEB сервиси код парелних еволутивних
+  алгоритама}.
+\newblock PhD thesis, Математички факултет,
+  Универзитет у Београду, 2006.
+
+\end{thebibliography}

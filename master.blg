@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: master.aux
+A level-1 auxiliary file: uvod.aux
+A level-1 auxiliary file: 2_0_prog_jez_Py.aux
+A level-1 auxiliary file: 2_1_Rac_i_prom.aux
+A level-1 auxiliary file: 2_2_Tip_podataka.aux
+A level-1 auxiliary file: 2_3_uslov.aux
+A level-1 auxiliary file: 2_4_petlje.aux
+A level-1 auxiliary file: 2_5_funkcije.aux
+A level-1 auxiliary file: 2_6_klase.aux
+A level-1 auxiliary file: 3_0_pretraga.aux
+A level-1 auxiliary file: 4_0_crawler.aux
+A level-1 auxiliary file: 5_0_query.aux
+A level-1 auxiliary file: 6_0_rang.aux
+A level-1 auxiliary file: 7_0_zakljucak.aux
+A level-1 auxiliary file: appendix_a.aux
+A level-1 auxiliary file: appendix_b.aux
+A level-1 auxiliary file: appendix_v.aux
+The style file: plain.bst
+Database file #1: master.bib
+Warning--to sort, need author or key in pythonsite
+Warning--to sort, need author or key in pythonista
+Warning--to sort, need author or key in PEP
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            571 strings with 5949 characters,
+and the built_in function-call counts, 2759 in all, are:
+= -- 258
+> -- 112
+< -- 0
++ -- 47
+- -- 34
+* -- 126
+:= -- 469
+add.period$ -- 39
+call.type$ -- 12
+change.case$ -- 44
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 126
+empty$ -- 260
+format.name$ -- 34
+if$ -- 597
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 16
+newline$ -- 63
+num.names$ -- 18
+pop$ -- 99
+preamble$ -- 1
+purify$ -- 41
+quote$ -- 0
+skip$ -- 73
+stack$ -- 0
+substring$ -- 61
+swap$ -- 12
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 3
+while$ -- 18
+width$ -- 14
+write$ -- 123
+(There were 3 warnings)
