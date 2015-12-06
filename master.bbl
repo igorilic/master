@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{proposal}
+Bernard lee proposal.
+\newblock \url{http://www.w3.org/History/1989/proposal.html}.
+\newblock Последњи пут приступљено 2015. године.
+
 \bibitem{PEP}
 Pep 8 - style guide for python code.
 \newblock \url{http://legacy.python.org/dev/peps/pep-0008}.
