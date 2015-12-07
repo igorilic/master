@@ -113,3 +113,16 @@ title = {Pythonista},
 howpublished = {\url{http://python.net/crew/mwh/hacks/objectthink.html}},
 note = {Последњи пут приступљено 2014. године}
 }
+
+@Misc{proposal,
+title = {Bernard Lee Proposal},
+howpublished = {\url{http://www.w3.org/History/1989/proposal.html}},
+note = {Последњи пут приступљено 2015. године}
+}
+
+
+@Misc{strukturaHTML,
+title = {Структура HTML кода},
+howpublished = {\url{http://www.w3.org/TR/html401/struct/global.html}},
+note = {Последњи пут приступљено 2015. године}
+}

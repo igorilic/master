@@ -20,6 +20,11 @@ Python\texttrademark.
 \newblock \url{http://www.python.org}.
 \newblock Последњи пут приступљено 2014. године.
 
+\bibitem{strukturaHTML}
+Структура html кода.
+\newblock \url{http://www.w3.org/TR/html401/struct/global.html}.
+\newblock Последњи пут приступљено 2015. године.
+
 \bibitem{berners2004weaving}
 T.~Berners-Lee and M.~Fischetti.
 \newblock {\em Weaving The Web: The Original Design And Ultimate Destiny Of The
