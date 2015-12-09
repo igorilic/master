@@ -45,4 +45,4 @@ def crawl_web(seed, max_pages):
             crawled.append(page)
             count = count + 1
     return crawled
-        
+

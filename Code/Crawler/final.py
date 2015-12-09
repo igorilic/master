@@ -3,20 +3,25 @@
 # page   pages that link to target
 
 
+max_pages = 5
+
+
 def crawl_web(seed):  # vraca index, graph inlinks
     tocrawl = [seed]
     crawled = []
     graph = {}  # <url>, [list of pages it links to]
     index = {}
-    while tocrawl:
+    count = 0
+    while tocrawl and count < max_pages:
         page = tocrawl.pop()
         if page not in crawled:
             content = get_page(page)
             add_page_to_index(index, page, content)
-            outlinks = get_all_links(content) # linkovi ka
-            graph[page]=outlinks #pravi se graph
+            outlinks = get_all_links(content)  # linkovi ka
+            graph[page] = outlinks  # pravi se graph
             union(tocrawl, outlinks)
             crawled.append(page)
+            count += 1
     return index, graph
 
 
@@ -76,3 +81,44 @@ def lookup(index, keyword):
         return index[keyword]
     else:
         return None
+
+'''
+modul rangiranja
+uzima graf
+vraca mapu sa parovima: hiperveze i ranga
+'''
+
+
+def compute_ranks(graph):
+    d = 0.8  # damping faktor
+    numloops = 10
+    ranks = {}
+    npages = len(graph)
+    for page in graph:
+        ranks[page] = 1.0 / npages
+
+    for unused in range(0, numloops):
+        newranks = {}
+        for page in graph:
+            newrank = (1 - d)/npages
+
+            for node in graph:
+                if page in graph[node]:
+                    newrank += ranks[node]*d/len(graph[node])
+
+            newranks[page] = newrank
+        ranks = newranks
+    return ranks
+
+
+def rank_list(ranks):
+    return sorted(ranks, key=ranks.__getitem__, reverse=True)
+
+
+'''
+primer
+'''
+index, graph = crawl_web('http://poincare.matf.bg.ac.rs/~vladaf/index_e.html')
+rang = compute_ranks(graph)
+print(rang)
+print(rank_list(rang))
