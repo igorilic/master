@@ -4,13 +4,13 @@ def get_page(url):
         return urllib.open(url).read()
     except:
         return ""
-    
+
 
 def union(p,q):
     for e in q:
         if e not in p:
             p.append(e)
-            
+
 def get_next_target(page):
     start_link = page.find('<a href=')
     if start_link == -1:
@@ -61,4 +61,4 @@ def crawl_web(seed):
             union(tocrawl, get_all_links(content))
             crawled.append(page)
     return crawled
-        
+

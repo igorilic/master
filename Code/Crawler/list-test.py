@@ -1,5 +1,8 @@
-NUMBER_OF_BUCKETS = 10  # number of buckets in index list
-MAX_PAGES = 5  # number of pages to crawl
+import time
+
+
+NUMBER_OF_BUCKETS = 10  # broj listi u hash tabeli
+MAX_PAGES = 50  # maksimalan broj strana koji se ucitava
 
 
 def get_page(url):
@@ -38,6 +41,7 @@ def get_all_links(page):
     return links
 
 
+# pravi praznu hash tabelu
 def make_hash_table(nbuckets):
     i = 0
     table = []
@@ -47,6 +51,7 @@ def make_hash_table(nbuckets):
     return table
 
 
+# izracunava broj liste u odnosu na kljuc
 def hash_string(keyword, buckets):
     h = 0
     for c in keyword:
@@ -54,7 +59,7 @@ def hash_string(keyword, buckets):
     return h
 
 
-# pomocna funkcija: vraca koficu u kojoj je keyword
+# vraca listu u hash tabeli u kojoj se nalazi kljucna rec
 def hashtable_get_bucket(htable, keyword):
     return htable[hash_string(keyword, len(htable))]
 
@@ -111,5 +116,9 @@ def crawl_web(seed):
 
 
 # TEST
+start = time.clock()  # pocetak testa
 index = crawl_web('http://poincare.matf.bg.ac.rs/~vladaf/index_e.html')
-print(index)
+# print(index)
+vreme = time.clock() - start  # kraj testa
+print("Vreme izvrsenja u testu hash tabele sa listama: ")
+print(vreme)

@@ -1,51 +1,61 @@
-'''
-@author: Igor Ilic
-'''
-max_pages = 100
+"""
+Veb-pauk koji vrsi prikupljanje URL-ova i kljucnih reci za zeljeni broj veb
+strana.
+Kako bi se generisala dokumentacija koristite komandu:
+    pydoc -w crawler
+"""
 
-'''
-modul veb-pauka
-uzima url
-vraca index i graph, kao mape
-'''
-def crawl_web(seed): # vraca index, graph inlinks
+
+"""Broj stranica koje ce obici veb-pauk."""
+MAX_PAGES = 10
+
+
+def crawl_web(seed):
+    """Veb pauk - seed: URL pocetne stranice. Vraca index i graph"""
     tocrawl = [seed]
     crawled = []
-    graph = {}  # hiperveza, [lista stranica na koje pokazuje]
-    index = {} 
+    graph = {}
+    index = {}
     count = 0
-    while tocrawl and count<max_pages:
+    while tocrawl and count < MAX_PAGES:
         page = tocrawl.pop()
         if page not in crawled:
             content = get_page(page)
             add_page_to_index(index, page, content)
-            outlinks = get_all_links(content) # linkovi ka
-            graph[page]=outlinks #pravi se graph
+            outlinks = get_all_links(content)  # linkovi ka
+            graph[page] = outlinks  # pravi se graph
             union(tocrawl, outlinks)
             crawled.append(page)
-            count+=1
+            count += 1
     return index, graph
-# get_page uzima url i vraca html kod stranice
+
+
 def get_page(url):
+    """Funkcija get_page - url: URL koji se ucitava. Vraca HTML kod stranice"""
     try:
         import urllib
         return urllib.urlopen(url).read()
     except:
         return ""
-# get_next_target uzima kod stranice
-# vraca prvu hipervezu na koju nailazi
-# i poziciju u kodu stranice na kojoj prestaje url    
+
+
 def get_next_target(page):
+    """Funkcija get_next_target - page: HTML kod stranice
+    Vraca URL i polozaj krajnjeg navodnika u linku
+    """
     start_link = page.find('<a href=')
-    if start_link == -1: 
+    if start_link == -1:
         return None, 0
     start_quote = page.find('"', start_link)
     end_quote = page.find('"', start_quote + 1)
     url = page[start_quote + 1:end_quote]
     return url, end_quote
-# get_all_links uzima kod stranice
-# vraca sve hiperveze u obliku liste
+
+
 def get_all_links(page):
+    """Funkcija get_all_links - HTML kod stranice
+    Vraca listu svih URL-ova sa stranice
+    """
     links = []
     while True:
         url, endpos = get_next_target(page)
@@ -55,81 +65,93 @@ def get_all_links(page):
         else:
             break
     return links
-# pomocna funkcija, sluzi za pravljenje unije dve liste
+
+
 def union(a, b):
+    """Funkcija union uzima dve liste i vraca njihovu uniju."""
     for e in b:
         if e not in a:
             a.append(e)
-# add_page_to_index uzima index(mapa), hipervezu
-# i listu kljucnih reci iz koda stranice
-# dodaje sve stranice i kljucne reci u index
+
+
 def add_page_to_index(index, url, content):
+    """
+    Funkcija add_page_to_index
+
+    index: Mapa u koju se prikupljaju podaci
+    url: URL stranice sa koje se skuplja sadrzaj
+    content: Niska koja predstavlja sadrzaj stranice
+    Ne vraca nista
+    """
     words = content.split()
     for word in words:
         add_to_index(index, word, url)
-# add_to_index dodaje par kljucna rec, hiperveza
-# u indeks        
+
+
 def add_to_index(index, keyword, url):
+    """Funkcija add_to_index
+    index: Mapa u koju se prikupljaju podaci
+    keyword: Niska koja predstavlja rec koja se dodaje u index
+    url: URL na kojoj je nadjen keyword
+    Ne vraca nista
+    """
     if keyword in index:
         index[keyword].append(url)
     else:
         index[keyword] = [url]
-# lookup trazi kljucnu rec u indexu
-# vraca hiperveze koje odgovaraju kljucnoj reci
+
+
 def lookup(index, keyword):
+    """Funkcija lookup
+    index: Mapa u koju se prikupljaju podaci
+    keyword: rec koja se trazi u indexu
+    Vraca sve URL koji odgovaraju keyword-u
+    """
     if keyword in index:
         return index[keyword]
     else:
         return None
-'''
-modul rangiranja
-uzima graf
-vraca mapu sa parovima: hiperveze i ranga
-'''
+
+
 def compute_ranks(graph):
-    d = 0.8 # damping factor
+    """
+    Funkcija compute_ranks
+    graph: Mapa u kojoj se nalaze veze izmedju stranica
+    Vraca mapu u kojoj su dati rangovi stranica
+    """
+    d = 0.8  # damping faktor
     numloops = 10
-    
     ranks = {}
     npages = len(graph)
     for page in graph:
         ranks[page] = 1.0 / npages
-    
+
     for unused in range(0, numloops):
         newranks = {}
         for page in graph:
-            newrank = (1 - d) / npages
-            
+            newrank = (1 - d)/npages
+
             for node in graph:
                 if page in graph[node]:
                     newrank += ranks[node]*d/len(graph[node])
-            
+
             newranks[page] = newrank
         ranks = newranks
     return ranks
-# sortira hiperveze po rangu koji imaju pocev od najpopularnije
-def rank_list(ranks):
-    return sorted(ranks, key=ranks.__getitem__, reverse=True)
-'''
-modul rezultata
-uzima index, rang i kljucnu rec
-vraca hipervezu koja odgovara kljucnoj reci i ima najveci rang
-'''
-def lucky_search(index, ranks, keyword):
-    url_list = lookup(index, keyword)
-    if url_list == None:
-        return None
-        
-    key = ''
-    maximum = 0
-    for entry in url_list:
-            if ranks[entry]>= maximum:
-                maximum = ranks[entry]
-                key=entry
-    return key
 
-'''
-primer
-'''    
-index, graph = crawl_web('http://localhost/prva.html')
-print(rank_list(compute_ranks(graph)))
+
+def rank_list(ranks):
+    """Funkcija rank_list - ranks: Mapa u kojoj su dati rangovi stranica
+    Vraca listu URL-ova iz mape ranks, sortiranih po rangu
+    """
+    return sorted(ranks, key=ranks.__getitem__, reverse=True)
+
+
+"""
+Primer koji daje rezultate rangiranja stranica u odnosu na pocetnu
+"""
+index, graph = crawl_web('http://johnpapa.net')
+rang = compute_ranks(graph)
+print(graph)
+print(rang)
+print(rank_list(rang))

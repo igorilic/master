@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{artofhashing}
+The art of hashing.
+\newblock
+  \url{http://eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx}.
+\newblock Последњи пут приступљено 2015. године.
+
 \bibitem{proposal}
 Bernard lee proposal.
 \newblock \url{http://www.w3.org/History/1989/proposal.html}.
@@ -19,6 +25,11 @@ Pythonista.
 Python\texttrademark.
 \newblock \url{http://www.python.org}.
 \newblock Последњи пут приступљено 2014. године.
+
+\bibitem{vim}
+Vim and python.
+\newblock \url{http://justin.abrah.ms/vim/vim_and_python.html}.
+\newblock Последњи пут приступљено 2015. године.
 
 \bibitem{strukturaHTML}
 Структура html кода.
@@ -48,6 +59,13 @@ J.R. Briggs.
 T.H. Cormen, C.E. Leiserson, R.L. Rivest, and C.~Stein.
 \newblock {\em Introduction To Algorithms}.
 \newblock MIT Press, 2001.
+
+\bibitem{Knuth1998ACP}
+Donald~E. Knuth.
+\newblock {\em The Art of Computer Programming, Volume 3: (2Nd Ed.) Sorting and
+  Searching}.
+\newblock Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA,
+  1998.
 
 \bibitem{langville2011google}
 A.N. Langville and C.D. Meyer.

@@ -1,0 +1,2 @@
+Vreme izvrsenja u testu hash tabele sa listama: 
+322.546326

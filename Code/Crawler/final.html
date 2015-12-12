@@ -1,0 +1,62 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module final</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>final</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/teacher/master/Code/Crawler/final.py">/home/teacher/master/Code/Crawler/final.py</a></font></td></tr></table>
+    <p><tt>Veb-pauk&nbsp;koji&nbsp;vrsi&nbsp;prikupljanje&nbsp;URL-ova&nbsp;i&nbsp;kljucnih&nbsp;reci&nbsp;za&nbsp;zeljeni&nbsp;broj&nbsp;veb<br>
+strana.<br>
+Kako&nbsp;bi&nbsp;se&nbsp;generisala&nbsp;dokumentacija&nbsp;koristite&nbsp;komandu:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;pydoc&nbsp;-w&nbsp;crawler</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-add_page_to_index"><strong>add_page_to_index</strong></a>(index, url, content)</dt><dd><tt>Funkcija&nbsp;add_page_to_index<br>
+&nbsp;<br>
+index:&nbsp;Mapa&nbsp;u&nbsp;koju&nbsp;se&nbsp;prikupljaju&nbsp;podaci<br>
+url:&nbsp;URL&nbsp;stranice&nbsp;sa&nbsp;koje&nbsp;se&nbsp;skuplja&nbsp;sadrzaj<br>
+content:&nbsp;Niska&nbsp;koja&nbsp;predstavlja&nbsp;sadrzaj&nbsp;stranice<br>
+Ne&nbsp;vraca&nbsp;nista</tt></dd></dl>
+ <dl><dt><a name="-add_to_index"><strong>add_to_index</strong></a>(index, keyword, url)</dt><dd><tt>Funkcija&nbsp;add_to_index<br>
+index:&nbsp;Mapa&nbsp;u&nbsp;koju&nbsp;se&nbsp;prikupljaju&nbsp;podaci<br>
+keyword:&nbsp;Niska&nbsp;koja&nbsp;predstavlja&nbsp;rec&nbsp;koja&nbsp;se&nbsp;dodaje&nbsp;u&nbsp;index<br>
+url:&nbsp;URL&nbsp;na&nbsp;kojoj&nbsp;je&nbsp;nadjen&nbsp;keyword<br>
+Ne&nbsp;vraca&nbsp;nista</tt></dd></dl>
+ <dl><dt><a name="-compute_ranks"><strong>compute_ranks</strong></a>(graph)</dt><dd><tt>Funkcija&nbsp;compute_ranks<br>
+graph:&nbsp;Mapa&nbsp;u&nbsp;kojoj&nbsp;se&nbsp;nalaze&nbsp;veze&nbsp;izmedju&nbsp;stranica<br>
+Vraca&nbsp;mapu&nbsp;u&nbsp;kojoj&nbsp;su&nbsp;dati&nbsp;rangovi&nbsp;stranica</tt></dd></dl>
+ <dl><dt><a name="-crawl_web"><strong>crawl_web</strong></a>(seed)</dt><dd><tt>Veb&nbsp;pauk&nbsp;-&nbsp;seed:&nbsp;URL&nbsp;pocetne&nbsp;stranice.&nbsp;Vraca&nbsp;index&nbsp;i&nbsp;graph</tt></dd></dl>
+ <dl><dt><a name="-get_all_links"><strong>get_all_links</strong></a>(page)</dt><dd><tt>Funkcija&nbsp;get_all_links&nbsp;-&nbsp;HTML&nbsp;kod&nbsp;stranice<br>
+Vraca&nbsp;listu&nbsp;svih&nbsp;URL-ova&nbsp;sa&nbsp;stranice</tt></dd></dl>
+ <dl><dt><a name="-get_next_target"><strong>get_next_target</strong></a>(page)</dt><dd><tt>Funkcija&nbsp;get_next_target&nbsp;-&nbsp;page:&nbsp;HTML&nbsp;kod&nbsp;stranice<br>
+Vraca&nbsp;URL&nbsp;i&nbsp;polozaj&nbsp;krajnjeg&nbsp;navodnika&nbsp;u&nbsp;linku</tt></dd></dl>
+ <dl><dt><a name="-get_page"><strong>get_page</strong></a>(url)</dt><dd><tt>Funkcija&nbsp;get_page&nbsp;-&nbsp;url:&nbsp;URL&nbsp;koji&nbsp;se&nbsp;ucitava.&nbsp;Vraca&nbsp;HTML&nbsp;kod&nbsp;stranice</tt></dd></dl>
+ <dl><dt><a name="-lookup"><strong>lookup</strong></a>(index, keyword)</dt><dd><tt>Funkcija&nbsp;lookup<br>
+index:&nbsp;Mapa&nbsp;u&nbsp;koju&nbsp;se&nbsp;prikupljaju&nbsp;podaci<br>
+keyword:&nbsp;rec&nbsp;koja&nbsp;se&nbsp;trazi&nbsp;u&nbsp;indexu<br>
+Vraca&nbsp;sve&nbsp;URL&nbsp;koji&nbsp;odgovaraju&nbsp;keyword-u</tt></dd></dl>
+ <dl><dt><a name="-rank_list"><strong>rank_list</strong></a>(ranks)</dt><dd><tt>Funkcija&nbsp;rank_list&nbsp;-&nbsp;ranks:&nbsp;Mapa&nbsp;u&nbsp;kojoj&nbsp;su&nbsp;dati&nbsp;rangovi&nbsp;stranica<br>
+Vraca&nbsp;listu&nbsp;URL-ova&nbsp;iz&nbsp;mape&nbsp;ranks,&nbsp;sortiranih&nbsp;po&nbsp;rangu</tt></dd></dl>
+ <dl><dt><a name="-union"><strong>union</strong></a>(a, b)</dt><dd><tt>Funkcija&nbsp;union&nbsp;uzima&nbsp;dve&nbsp;liste&nbsp;i&nbsp;vraca&nbsp;njihovu&nbsp;uniju.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>MAX_PAGES</strong> = 5<br>
+<strong>graph</strong> = {'AssignmentManagement.html': [], 'files/Download/Initiation aux Syst<font color="#c040c0">\xe8</font>mes Neuromim<font color="#c040c0">\xe9</font>tiques.pdf': [], 'files/Download/Trax Fund Diary Overview.pdf': [], 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html': ['http://www.matf.bg.ac.rs/', '#Pocetak', 'index.html', '#NaucneAktivnosti', '#OdabranePublikacije', '#OstalePublikacije', '#NastavnaDelatnost', '#StrucnaDelatnost', '#Licno', 'http://rs.linkedin.com/in/vladofilipovic', '#Pocetak', '#Pocetak', '#Pocetak', '#Pocetak', 'Projects/EaWeb/EaWebApplication.zip', 'Projects/EaWeb/index_e.html', 'http://www.mbsystem.rs', 'http://www.bar.me', 'http://www.uom.co.me/en/?p=647', 'http://www.analytx.com/', ...], 'http://www.trax.lu/': ['eCDF.html', 'about.html', 'contact.html', 'index.html', 'files/Download/Trax Family Office Overview Q4, 2004 for A5 print.pdf', 'files/Download/Trax Accounting Overview 1.pdf', 'files/Download/Trax Diary Overview.pdf', 'files/Download/TraxTime Overview.pdf', 'files/Download/Trax Family Office Overview Q4, 2004 for A5 print.pdf', 'files/Download/Trax NAV Fund Accounting Overview.pdf', 'files/Download/Trax Shareholder Overview 1.3.pdf', 'files/Download/Trax Limits Overview.pdf', 'files/Download/Doc NT.Net.pdf', 'files/Download/Initiation aux Syst<font color="#c040c0">\xe8</font>mes Neuromim<font color="#c040c0">\xe9</font>tiques.pdf', 'eCDF.html', 'files/Download/Trax Fund Diary Overview.pdf', 'AssignmentManagement.html']}<br>
+<strong>index</strong> = {'!mso]&gt;': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html'], '!supportLineBreakNewLine]&gt;&lt;br': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html'], '!supportLists]&gt;&lt;span': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', ...], '!vml]&gt;&lt;a': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html'], '"-//W3C//DTD': ['http://www.trax.lu/'], '"Times': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', ...], '"Verdana","sans-serif"<font color="#c040c0">\'</font>&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html'], '"Verdana","sans-serif";mso-bidi-font-family:Calibri;mso-bidi-theme-font:': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html'], '"Verdana","sans-serif";mso-fareast-font-family:"Times': ['http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html', ...], '"http://www.w3.org/TR/html4/loose.dtd"&gt;': ['http://www.trax.lu/'], ...}<br>
+<strong>rang</strong> = {'AssignmentManagement.html': 0.04194782608695651, 'files/Download/Initiation aux Syst<font color="#c040c0">\xe8</font>mes Neuromim<font color="#c040c0">\xe9</font>tiques.pdf': 0.04194782608695651, 'files/Download/Trax Fund Diary Overview.pdf': 0.04194782608695651, 'http://poincare.matf.bg.ac.rs/~vladaf/index_e.html': 0.039999999999999994, 'http://www.trax.lu/': 0.04139130434782608}</td></tr></table>
+</body></html>
