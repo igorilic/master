@@ -95,10 +95,10 @@ def crawl_web (seed, max_depth):
         depth = layer[1]
         if depth <= max_depth:
             for url in layer[0]:
-                if url not in crawled:
-                    union(tocrawl, [get_all_links(get_page(url)),depth+1])
-                    # dubina se povecala za 1
-                    crawled.append(url)
+               if url not in crawled:
+                 union(tocrawl, [get_all_links(get_page(url)),depth+1])
+                 # dubina se povecala za 1
+                 crawled.append(url)
     return crawled
 \end{lstlisting}
 

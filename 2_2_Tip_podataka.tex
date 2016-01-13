@@ -69,22 +69,22 @@ Moj prosek je bio 7.6, a mogao je biti i bolji...
 Посебно је интересантна операција исецања ниске (енгл. \emph{slicе}), чиме се даје могућност да се од ниске исече и одвоји тачно онај део који је потребан.
 
 \begin{lstlisting}[caption = Исецање ниске, label = slice]
->>> s = "Hello"         # niska s pokazuje na niz slova Hello
->>> print (s[1:4])      # svi znakovi pocev od drugog zakljucno sa cetvrtim
+>>> s = "Hello"     # niska s pokazuje na niz slova Hello
+>>> print (s[1:4])  # svi znakovi pocev od drugog zakljucno sa cetvrtim
 ell
 >>> print (s[1:])       # svi znakovi pocev od drugog do kraja niske
 ello
 >>> print (s[:])        # svi znakovi od pocetka do kraja
 Hello
->>> print (s[1:100])    # svi znakovi pocev od drugog zakljucno sa stotim
+>>> print (s[1:100])    # pocev od drugog zakljucno sa stotim
 ello                    # ako ne postoji 100-i znak, vraca se kraj niske
 >>> print (s[-1])       # odredjuje se poslednji znak niske
 o
 >>> print (s[-4])       # odredjuje se 4. znak od pozadi
 e
->>> print (s[:-3])      # svi znaci pocev od pocetka pa do treceg od pozadi
+>>> print (s[:-3])      # pocev od pocetka pa do treceg od pozadi
 He
->>> print (s[-3:])      # svi znaci pocev od treceg od pozadi do kraja niske
+>>> print (s[-3:])      # pocev od treceg od pozadi do kraja niske
 llo
 
 \end{lstlisting}
@@ -235,14 +235,14 @@ Dzon
 
 \begin{table}[here]
 \centering
-\begin{tabular}{|c|c|c|} \hline
-\multicolumn{3}{|c|}{\textbf{МЕТОДИ И ФУНКЦИЈЕ ЗА РАД СА МАПАМА}} \\ \hline
-\textbf{Метода} & \textbf{Објашњење} & \textbf{Пример} \\ \hline
-map[key]=value & Додељивање или мењање вредности кључа & bitlsi['Dzon'] = 'vokal' \\ \hline
-del map[kljuc] & Брисање кључа и вредности из мапе & del bitlsi['Pol'] \\ \hline
-keys() & Метод којим се сви кључеви дате мапе враћају као листа & bitlsi.keys() \\ \hline
-values() & Метод којим се све вредности дате мапе враћају као листа & bitlsi.values() \\ \hline
-items() & Метод који враћа листу уређених парова кључ, вредност & bitlsi.items() \\ \hline
+\begin{tabular}{|c|c|} \hline
+\multicolumn{2}{|c|}{\textbf{МЕТОДИ И ФУНКЦИЈЕ ЗА РАД СА МАПАМА}} \\ \hline
+\textbf{Метода} & \textbf{Објашњење} \\ \hline
+map[key]=value & Додељивање или мењање вредности кључа \\ \hline
+del map[kljuc] & Брисање кључа и вредности из мапе  \\ \hline
+keys() & Метод којим се сви кључеви дате мапе враћају као листа  \\ \hline
+values() & Метод којим се све вредности дате мапе враћају као листа  \\ \hline
+items() & Метод који враћа листу уређених парова кључ, вредност  \\ \hline
 \end{tabular}
 \caption{Методе и функције за рад са мапама}
 \label{tabela:mape}

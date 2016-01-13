@@ -1,11 +1,3 @@
-"""
-Veb-pauk koji vrsi prikupljanje URL-ova i kljucnih reci za zeljeni broj veb
-strana.
-Kako bi se generisala dokumentacija koristite komandu:
-    pydoc -w crawler
-"""
-
-
 """Broj stranica koje ce obici veb-pauk."""
 MAX_PAGES = 10
 
@@ -31,7 +23,10 @@ def crawl_web(seed):
 
 
 def get_page(url):
-    """Funkcija get_page - url: URL koji se ucitava. Vraca HTML kod stranice"""
+    """Funkcija get_page
+    url: URL koji se ucitava
+    Vraca HTML kod stranice
+    """
     try:
         import urllib
         return urllib.urlopen(url).read()
@@ -141,7 +136,8 @@ def compute_ranks(graph):
 
 
 def rank_list(ranks):
-    """Funkcija rank_list - ranks: Mapa u kojoj su dati rangovi stranica
+    """Funkcija rank_list
+    ranks: Mapa u kojoj su dati rangovi stranica
     Vraca listu URL-ova iz mape ranks, sortiranih po rangu
     """
     return sorted(ranks, key=ranks.__getitem__, reverse=True)
