@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  14 JAN 2016 23:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  14 JAN 2016 23:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1421,7 +1421,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts
 er/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1095.pfb>
-Output written on master.pdf (62 pages, 831214 bytes).
+Output written on master.pdf (62 pages, 831213 bytes).
 PDF statistics:
  2354 PDF objects out of 2487 (max. 8388607)
  2197 compressed objects within 22 object streams
