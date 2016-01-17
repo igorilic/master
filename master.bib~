@@ -141,3 +141,18 @@ title = {The Art of Hashing},
 howpublished = {\url{http://eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx}},
 note = {Последњи пут приступљено 2015. године}
 }
+
+
+@Misc{django,
+title = {Django framework},
+howpublished = {\url{http://www.djangoproject.com}},
+note = {Последњи пут приступљено 2015. године}
+}
+
+
+@Book{maric,
+author = {Предраг Јаничић, Филип Марић},
+title = {Програмирање 2, Основе програмирања кроз програмски језик C},
+publisher = {Математички факултет, Београд},
+year = {2015}
+}

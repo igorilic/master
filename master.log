@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  14 JAN 2016 23:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.15)  17 JAN 2016 17:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -741,7 +741,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<vecigrb.png, id=289, 346.29375pt x 409.53pt>
+<vecigrb.png, id=293, 346.29375pt x 409.53pt>
 File: vecigrb.png Graphic file (type png)
  <use vecigrb.png>
 Package pdftex.def Info: vecigrb.png used on input line 87.
@@ -771,7 +771,7 @@ l.79 \include{uvod}
 
 
 ]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 44.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 42.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
@@ -798,39 +798,42 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 42--42
 [][][][][][][] 
  []
 
-<1a.png, id=453, 82.3075pt x 96.36pt>
+<1a.png, id=459, 82.3075pt x 96.36pt>
 File: 1a.png Graphic file (type png)
  <use 1a.png>
-Package pdftex.def Info: 1a.png used on input line 54.
+Package pdftex.def Info: 1a.png used on input line 67.
 (pdftex.def)             Requested size: 82.30728pt x 96.35974pt.
 
-<2a.png, id=454, 92.345pt x 88.33pt>
+<2a.png, id=460, 92.345pt x 88.33pt>
 File: 2a.png Graphic file (type png)
  <use 2a.png>
-Package pdftex.def Info: 2a.png used on input line 69.
+Package pdftex.def Info: 2a.png used on input line 82.
 (pdftex.def)             Requested size: 92.34476pt x 88.32977pt.
 
-<1.png, id=455, 36.135pt x 69.25874pt>
+<1.png, id=461, 36.135pt x 69.25874pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
-Package pdftex.def Info: 1.png used on input line 70.
+Package pdftex.def Info: 1.png used on input line 83.
 (pdftex.def)             Requested size: 36.13489pt x 69.25856pt.
 
-<2ab.png, id=456, 153.57375pt x 88.33pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<2ab.png, id=462, 153.57375pt x 88.33pt>
 File: 2ab.png Graphic file (type png)
  <use 2ab.png>
-Package pdftex.def Info: 2ab.png used on input line 83.
+Package pdftex.def Info: 2ab.png used on input line 96.
 (pdftex.def)             Requested size: 153.57336pt x 88.32977pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./1a.png> <./2a.png> <./1.png>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 100--100
+[5 <./1a.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 113--113
 [][][][][][][] 
  []
 
-) [6 <./2ab.png>]
+) [6 <./2a.png> <./1.png> <./2ab.png>]
 \openout2 = `2_2_Tip_podataka.aux'.
 
  (./2_2_Tip_podataka.tex
@@ -848,7 +851,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][] 
  []
 
-<hello_string.png, id=490, 202.50656pt x 112.92188pt>
+<hello_string.png, id=497, 202.50656pt x 112.92188pt>
 File: hello_string.png Graphic file (type png)
  <use hello_string.png>
 Package pdftex.def Info: hello_string.png used on input line 45.
@@ -875,13 +878,13 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 109--109
 [][][][][][][] 
  []
 
-<bitlsi1.png, id=531, 485.815pt x 63.23625pt>
+<bitlsi1.png, id=538, 485.815pt x 63.23625pt>
 File: bitlsi1.png Graphic file (type png)
  <use bitlsi1.png>
 Package pdftex.def Info: bitlsi1.png used on input line 116.
 (pdftex.def)             Requested size: 242.9069pt x 31.61804pt.
 
-<bitlsi2.png, id=532, 479.7925pt x 100.375pt>
+<bitlsi2.png, id=539, 479.7925pt x 100.375pt>
 File: bitlsi2.png Graphic file (type png)
  <use bitlsi2.png>
 Package pdftex.def Info: bitlsi2.png used on input line 125.
@@ -938,7 +941,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 286--286
 ) [13]
 \openout2 = `2_3_uslov.aux'.
 
- (./2_3_uslov.tex <whitespace.png, id=653, 770.88pt x 504.88625pt>
+ (./2_3_uslov.tex <whitespace.png, id=660, 770.88pt x 504.88625pt>
 File: whitespace.png Graphic file (type png)
 
 <use whitespace.png>
@@ -1026,7 +1029,7 @@ f crawler.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<crawler-eps-converted-to.pdf, id=762, 611.28375pt x 428.60126pt>
+<crawler-eps-converted-to.pdf, id=769, 611.28375pt x 428.60126pt>
 File: crawler-eps-converted-to.pdf Graphic file (type pdf)
 
 <use crawler-eps-converted-to.pdf>
@@ -1086,7 +1089,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 103--103
 ) [27]
 \openout2 = `5_0_query.aux'.
 
- (./5_0_query.tex <index1.png, id=941, 338.26375pt x 126.4725pt>
+ (./5_0_query.tex <index1.png, id=948, 338.26375pt x 126.4725pt>
 File: index1.png Graphic file (type png)
 
 <use index1.png>
@@ -1097,13 +1100,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<index2.png, id=943, 440.64626pt x 168.63pt>
+<index2.png, id=950, 440.64626pt x 168.63pt>
 File: index2.png Graphic file (type png)
  <use index2.png>
 Package pdftex.def Info: index2.png used on input line 22.
 (pdftex.def)             Requested size: 260.9876pt x 100.37596pt.
 
-<index3.png, id=945, 498.86375pt x 181.67876pt>
+<index3.png, id=952, 498.86375pt x 181.67876pt>
 File: index3.png Graphic file (type png)
  <use index3.png>
 Package pdftex.def Info: index3.png used on input line 31.
@@ -1136,7 +1139,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 162--162
 [][][][][][][] 
  []
 
-[31] <hashtab1.png, id=1056, 473.77pt x 162.6075pt>
+[31] <hashtab1.png, id=1063, 473.77pt x 162.6075pt>
 File: hashtab1.png Graphic file (type png)
  <use hashtab1.png>
 Package pdftex.def Info: hashtab1.png used on input line 195.
@@ -1149,7 +1152,7 @@ Overfull \hbox (4.0355pt too wide) in paragraph at lines 195--196
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hashtab2.png, id=1057, 447.6725pt x 257.96375pt>
+<hashtab2.png, id=1064, 447.6725pt x 257.96375pt>
 File: hashtab2.png Graphic file (type png)
  <use hashtab2.png>
 Package pdftex.def Info: hashtab2.png used on input line 202.
@@ -1163,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-<hashstring.png, id=1059, 598.235pt x 112.42pt>
+<hashstring.png, id=1066, 598.235pt x 112.42pt>
 File: hashstring.png Graphic file (type png)
  <use hashstring.png>
 Package pdftex.def Info: hashstring.png used on input line 215.
@@ -1221,7 +1224,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 387--387
 
 LaTeX Warning: Command \cyrje invalid in math mode on input line 20.
 
-<graf.png, id=1230, 492.84125pt x 353.32pt>
+<graf.png, id=1237, 492.84125pt x 353.32pt>
 File: graf.png Graphic file (type png)
  <use graf.png>
 Package pdftex.def Info: graf.png used on input line 32.
@@ -1368,31 +1371,31 @@ Underfull \hbox (badness 4859) in paragraph at lines 4--8
 ternallyconfuzzled . com / tuts / algorithms / jsw _ tut _
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
- [59
+[59
 
-]
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+ [60]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
- (./master.aux (./uvod.aux) (./2_0_prog_jez_Py.aux) (./2_1_Rac_i_prom.aux) (./2
-_2_Tip_podataka.aux) (./2_3_uslov.aux) (./2_4_petlje.aux)
-(./2_5_funkcije.aux) (./2_6_klase.aux) (./3_0_pretraga.aux) (./4_0_crawler.aux)
-(./5_0_query.aux) (./6_0_rang.aux) (./7_0_zakljucak.aux) (./appendix_a.aux)
-(./appendix_b.aux) (./appendix_v.aux) (./appendix_g.aux))
+ (./master.aux (./uvod.aux) (./2_0_prog_jez_Py.aux)
+(./2_1_Rac_i_prom.aux) (./2_2_Tip_podataka.aux) (./2_3_uslov.aux)
+(./2_4_petlje.aux) (./2_5_funkcije.aux) (./2_6_klase.aux) (./3_0_pretraga.aux)
+(./4_0_crawler.aux) (./5_0_query.aux) (./6_0_rang.aux) (./7_0_zakljucak.aux)
+(./appendix_a.aux) (./appendix_b.aux) (./appendix_v.aux) (./appendix_g.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: BDB34DF3E9757615E3823CD5F59A3859;16119.
+(rerunfilecheck)             Checksum: 8C3659A2340112B5330A945D32E681B4;16259.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19264 strings out of 493304
- 266374 string characters out of 6139870
- 381592 words of memory out of 5000000
- 21077 multiletter control sequences out of 15000+600000
+ 19269 strings out of 493304
+ 266438 string characters out of 6139870
+ 381621 words of memory out of 5000000
+ 21079 multiletter control sequences out of 15000+600000
  26790 words of font info for 64 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,10n,53p,3013b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1421,10 +1424,10 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts
 er/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1095.pfb>
-Output written on master.pdf (62 pages, 831213 bytes).
+Output written on master.pdf (63 pages, 833247 bytes).
 PDF statistics:
- 2354 PDF objects out of 2487 (max. 8388607)
- 2197 compressed objects within 22 object streams
- 1256 named destinations out of 1440 (max. 500000)
- 654 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2366 PDF objects out of 2487 (max. 8388607)
+ 2207 compressed objects within 23 object streams
+ 1259 named destinations out of 1440 (max. 500000)
+ 662 words of extra memory for PDF output out of 10000 (max. 10000000)
 
