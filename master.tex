@@ -48,7 +48,7 @@
 \addto\captionsserbianc{\renewcommand{\indexname}{Индекс појмова}}
 \addto\captionsserbianc{\renewcommand{\contentsname}{Садржај}}
 \renewcommand{\lstlistingname}{К\^{о}д}
-\renewcommand\lstlistlistingname{Програмски к\^{о}дови}
+\renewcommand\lstlistlistingname{Програмски кодови}
 %--- sidenote
 \newcommand{\sidenote}[1]{%
         \refstepcounter{sidenote}\mbox{\textsuperscript{\alph{sidenote}}}%
@@ -92,6 +92,11 @@ captionpos = b, showstringspaces=false}
 \include{6_0_rang}
 \include{7_0_zakljucak}
 \pagebreak
+%==== BIBLIOGRAPHY
+\bibliography{master}
+%--- bibliography style
+\bibliographystyle{plain}
+\addcontentsline{toc}{section}{Литература}
 \include{appendix_a}
 \pagebreak
 \include{appendix_b}
@@ -99,10 +104,4 @@ captionpos = b, showstringspaces=false}
 \include{appendix_v}
 \pagebreak
 \include{appendix_g}
-\pagebreak
-%==== BIBLIOGRAPHY
-\bibliography{master}
-%--- bibliography style
-\bibliographystyle{plain}
-\addcontentsline{toc}{section}{Литература}
 \end{document}
